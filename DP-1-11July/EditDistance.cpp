@@ -17,6 +17,7 @@ public:
 		else return dp[i][j] = solve(s, x, i + 1, j + 1, dp);
 	}
 
+
 	int minDistance(string &s, string &x) {
 
 		vector< vector<int> > dp(s.size() + 1, vector<int>(x.size() + 1, -1));
