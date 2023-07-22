@@ -36,7 +36,7 @@ public:
 	int minStickers(vector<string>& stickers, string &target) {
 		map<pair<int, int>, int > dp;
 		int ans = solve(stickers, target, dp);
-		return ans == ( (1 << target.size()) - 1);
+		return ans == ( (1 << target.size()) - 1) ? -1 : ans;
 	}
 };
 
