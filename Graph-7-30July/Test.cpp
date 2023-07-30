@@ -1,3 +1,4 @@
+// https://codeforces.com/problemset/problem/1286/B
 #include <bits/stdc++.h>
 using namespace std;
 int c[2005];
@@ -26,8 +27,6 @@ int main() {
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 #endif
-
-
 	int n, root;
 	cin >> n;
 
